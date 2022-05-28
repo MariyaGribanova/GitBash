@@ -1,0 +1,68 @@
+1) Посмотреть где я
+pwd
+
+2) Создать папку
+mkdir qa_1
+
+3) Зайти в папку
+cd qa_1
+
+4) Создать 3 папки
+mkdir qa_{2..4}
+
+5) Зайти в любоую папку
+cd qa_1
+
+6) Создать 5 файлов (3 txt, 2 json)
+touch {file1.txt,file2.txt,file3.txt,file1.json,file2.json}
+
+7) Создать 3 папки
+mkdir -p folder1/ folder2/ folder3
+
+8) Вывести список содержимого папки
+ls -la
+
+9) Открыть любой txt файл
+cat >> file.txt (команда открывает файл сразу в режиме редактирования в главном окне GitBash, не в отдельном окне)
+
+10) Написать туда что-нибудь, любой текст (с отдельными строками)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+culpa qui officia deserunt mollit anim id est laborum.
+
+11) Сохранить и выйти
+Ctrl+C
+
+12) Выйти из папки на уровень выше
+cd ..
+
+13) Переместить любые 2 файла, которые вы создали, в любую другую папку
+mv qa_1/{file.txt,file1.txt} qa_2
+
+14) Скопировать любые 2 файла, которые вы создали, в любую другую папку
+cp qa_1/{file2.txt,file1.json} qa_3
+
+15) Найти файл по имени
+find . -name fale1.txt
+
+16) Просмотреть содержимое в реальном времени
+cat file.txt (при этом необходимо находиться внутри дирректории, где лежит файл)
+
+17) Вывести несколько первых строк из текстового файла
+head -1 file.txt (при этом необходимо находиться внутри дирректории, где лежит файл + 
+содержимое должно содержать строки, если написано всё одним абзацем, покажет его весь)
+
+18) Вывести несколько последних строк из текстового файла
+tail -1 file.txt (при этом необходимо находиться внутри дирректории, где лежит файл + 
+содержимое должно содержать строки, если написано всё одним абзацем, покажет его весь)
+
+19) Просмотреть содержимое длинного файла
+less file.txt (выводит содержимое файла в отдельное окно)
+q - выйти из этого окна
+
+20) Вывести дату и время
+date
