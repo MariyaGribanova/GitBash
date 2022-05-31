@@ -7,7 +7,7 @@ JSON
 	• внутри репозитория JSON нажать кнопку Code и скопировать HTTPS ссылку
 
 2. Клонировать репозиторий JSON на локальный компьютер - GitBash
-	• открыть локальный GitBash;
+	• открыть локальный GitBash
 	• зайти в рабочую папку GitBash: cd GitBash
 	• создать внутри папки GitBash папку JSON: mkdir JSON
 	• зайти в папку JSON: cd JSON
@@ -18,7 +18,7 @@ JSON
 
 4. Добавить файл под гит - GitBash
 	• git status
-	• git add . new.json
+	• git add new.json
 	• git status
 
 5. Закоммитить файл - GitBash
@@ -29,10 +29,11 @@ JSON
 	
 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON - GitBash
 	• cat >> new.json
+	• CTRL+C - выйти из редактора cat
 	
 8. Отправить изменения на внешний репозиторий - GitBash
 	• git status
-	• git add . new.json
+	• git add new.json
 	• git status
 	• git commit -m "GitHub_Homework_3"
 	• git push
@@ -42,10 +43,12 @@ JSON
 
 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON - GitBash
 	• cat >> preferences.json
+	• CTRL+C - выйти из редактора cat
 
 11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - GitBash
 	• touch sklls.json
 	• cat >> sklls.json
+	• CTRL+C - выйти из редактора cat
 
 12. Отправить сразу 2 файла на внешний репозиторий - GitBash
 	• git status
