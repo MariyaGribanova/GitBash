@@ -52,7 +52,7 @@ XML
 
 12. Отправить сразу 2 файла на внешний репозиторий - GitBash
 	• git status
-	• git preferences.xml sklls.xml
+	• git add preferences.xml sklls.xml
 	• git status
 	• git commit -m "GitHub_Homework_3"
 	• git push
