@@ -1,0 +1,75 @@
+TXT
+1. Создать внешний репозиторий c названием TXT - GitBash:
+	• push "Create repository"
+	• add repository name "TXT"
+	• choice "add a README file"
+	• push "Creating repository"
+	• внутри репозитория TXT нажать кнопку Code и скопировать HTTPS ссылку
+
+2. Клонировать репозиторий TXT на локальный компьютер - GitBash
+	• открыть локальный GitBash;
+	• зайти в рабочую папку GitBash: cd GitBash
+	• создать внутри папки GitBash папку TXT: mkdir TXT
+	• зайти в папку TXT: cd TXT
+	• клонировать репозиторий TXT на локальный компьютер: git clone + HTTPS ссылка
+
+3. Внутри локального TXT создать файл “new.txt” - GitBash
+	• touch new.txt
+
+4. Добавить файл под гит - GitBash
+	• git status
+	• git add . new.txt
+	• git status
+
+5. Закоммитить файл - GitBash
+	• git commit -m "GitHub_Homework_3"
+
+6. Отправить файл на внешний GitHub репозиторий - GitBash
+	• git push
+	
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT - GitBash
+	• cat >> new.txt
+	• CTRL+C - выйти из редактора cat >>
+
+8. Отправить изменения на внешний репозиторий - GitBash
+	• git status
+	• git add new.txt
+	• git status
+	• git commit -m "GitHub_Homework_3(2)"
+	• git push
+
+9. Создать файл preferences.txt - GitBash
+	• touch preferences.txt
+
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT - GitBash
+	• cat >> preferences.txt
+	• CTRL+C - выйти из редактора cat >>
+
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT - GitBash
+	• touch sklls.txt
+	• cat >> sklls.txt
+	• CTRL+C - выйти из редактора cat >>
+
+12. Отправить сразу 2 файла на внешний репозиторий - GitBash
+	• git status
+	• git add preferences.txt sklls.txt
+	• git status
+	• git commit -m "GitHub_Homework_3"
+	• git push
+
+13. На веб интерфейсе создать файл bug_report.txt - GitBash
+	• нажать "Add file" и выбрать "Create new file"
+	• добавить имя "bug_report.txt"
+	
+14. Сделать Commit changes (сохранить) изменения на веб интерфейсе - GitBash
+	• нажать (и тем самым сохранить изменения) "Commit changes"
+
+15. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT - GitBash
+	• нажать "Edit this file"
+	• создать баг-репорт
+
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе - GitBash
+	• нажать (и тем самым сохранить изменения) "Commit changes"
+
+17. Синхронизировать внешний и локальный репозиторий XML - GitBash
+	• git pull
