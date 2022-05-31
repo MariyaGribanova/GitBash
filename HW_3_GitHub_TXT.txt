@@ -18,7 +18,7 @@ TXT
 
 4. Добавить файл под гит - GitBash
 	• git status
-	• git add . new.txt
+	• git add new.txt
 	• git status
 
 5. Закоммитить файл - GitBash
