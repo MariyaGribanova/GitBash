@@ -18,7 +18,7 @@ XML
 
 4. Добавить файл под гит - GitBash
 	• git status
-	• git add . new.xml
+	• git add new.xml
 	• git status
 
 5. Закоммитить файл - GitBash
@@ -33,7 +33,7 @@ XML
 
 8. Отправить изменения на внешний репозиторий - GitBash
 	• git status
-	• git add . new.xml
+	• git add new.xml
 	• git status
 	• git commit -m "GitHub_Homework_3(2)"
 	• git push
